@@ -67,7 +67,6 @@ ctx.on('aria2/event', (event) => {
   }
 })
 ```
-```
 
 ### 4. API 方法速查
 
