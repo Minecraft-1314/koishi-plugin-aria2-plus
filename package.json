@@ -1,0 +1,50 @@
+{
+  "name": "koishi-plugin-aria2-plus",
+  "description": "Koishi 的 aria2 下载服务插件",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": ["lib"],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "clean": "rimraf lib"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "aria2",
+    "download",
+    "rpc",
+    "websocket",
+    "下载"
+  ],
+  "devDependencies": {
+    "@koishijs/client": "^5.30.4",
+    "@koishijs/scripts": "^4.6.2",
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "koishi": "^4.18.7",
+    "ws": "^8.0.0"
+  },
+  "peerDependenciesMeta": {
+    "ws": {
+      "optional": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-org/koishi-plugin-aria2-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-org/koishi-plugin-aria2-plus/issues"
+  },
+  "homepage": "https://github.com/your-org/koishi-plugin-aria2-plus#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
