@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-aria2-plus",
   "description": "Koishi 的 aria2 下载服务插件",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": ["lib"],
