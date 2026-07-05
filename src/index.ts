@@ -318,7 +318,7 @@ namespace Aria2 {
     retry: Schema.natural().description('网络错误重试次数。').default(2),
     events: Schema.boolean().description('启用下载事件通知（自动尝试 WebSocket，不可用时回退到轮询）。').default(false),
     debug: Schema.boolean().description('开启调试日志。').default(false),
-  }).description('此插件提供了 aria2 服务。')
+  })
 }
 
 export default Aria2
